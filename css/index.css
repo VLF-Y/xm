@@ -502,9 +502,15 @@ element.style {
     display: none;
 }
 
+.subCate{
+    background: #FFFFFF;
+}
+
+
 .subCate01 {
     top: -1px;
-}
+    display: none;
+} 
 
 .subCate .full_list {
     padding: 0 15px 0 105px;
