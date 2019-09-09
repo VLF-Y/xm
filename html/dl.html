@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/dl.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="w">
+        <div id="logo">
+            <a href="/">
+                <img src="../html/img/logo1.gif" alt="万翔商城">
+            </a>
+			<b></b>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div id="content">
+            <div class="login-wrap">
+                <div class="w">
+                    <div class="login-form">
+                        <div class="hd login-tab">
+                            <ul><li><h2>扫码登录</h2></li><li class="on"><h2>账户登录</h2></li></ul>
+                        </div>
+                        <div class="bd">
+                            <div class="qrcode-login" style="display: none;">
+                            
+                                <div class="mc">
+                                    <div class="qrcode-errors" style="display: block; left: 0px;">
+                                        <div class="qrcode-error-mask"></div>
+                                        <p class="err-cont">二维码已失效</p>
+                                        <a href="javascript:getPCLoginQRcode()" class="refresh-btn">刷新</a>
+                                    </div>
+                                    <div class="qrcode-main">
+                                        <div class="qrcode-img" style="left: 64px;"> <img src="/ajax/GetQRCode.ashx?CodeText=PCLogin-1F55E6B0E3928F6D88C1B92C0CD979188D2E066B25AD1A22204B8867423FBE4EA9A673D631C2B08978B8B4D17C6613AA" width="150" height="150" alt=""></div>
+                                        <div class="qrcode-help" style="display: none;"></div>
+                                    </div>
+                                    <div class="qrcode-panel">
+                                        <ul>
+                                            <li class="fore1">
+                                                <span>打开</span>
+                                                <a href="###" target="_blank">
+                                                    <span class="red">手机万翔</span></a>
+                                            </li>
+                                            <li>扫描二维码</li>
+                                        </ul>
+                                    </div>
+                                    <div class="coagents qr-coagent" id="qrCoagent">
+                                        <ul>
+                                            <li><b></b><em>免输入</em></li>
+                                            <li><b class="faster"></b><em>更快&nbsp;</em></li>
+                                            <li><b class="more-safe"></b><em>更安全</em></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            
+                            </div>                    
+                        <div class="login-box" style="visibility: visible;">
+    
+                            <div class="msg-wrap">
+                                <div class="msg-warn "><b></b>公共场所不建议自动登录，以防账号丢失</div>
+                                <div class="msg-error hide" style=""><b></b>账户名与密码不匹配，请重新输入</div><!--  错误提示  -->
+                            </div>
+                            <div class="mc">
+                                <div class="form">
+                                    <form id="formlogin" method="post" onsubmit="return false;">
+                                        <div class="item item-fore1"> <!--  出错添加样式 item-error  -->
+                                            <label for="loginname" class="login-label name-label"></label>
+                                            <input id="txtLoginUid" type="text" class="itxt" name="loginname" tabindex="1" value="" placeholder="邮箱/用户名/已验证手机">
+                                            <span class="clear-btn" style="display: none;"></span>
+                                        </div>
+                                        <div id="entry" class="item item-fore2" style="visibility: visible;"><!--  密码或者账号没有添加样式item-error  -->
+                                            <label class="login-label pwd-label" for="nloginpwd"></label>
+                                            <input type="password" id="txtLoginPwd" name="nloginpwd" class="itxt itxt-error" tabindex="2" placeholder="密码" onkeydown="if(event.keyCode==13){checkLogin();}">
+                                            <span class="clear-btn" style="display: none;"></span>
+                                            <span class="capslock" style="display: none;"><b></b>大小写锁定已打开</span>
+                                        </div>
+                                        <div class="item item-fore3">
+                                            <div class="safe">
+                                                <span>
+                                                    <input id="is_remember" name="chkRememberMe" type="checkbox" class="jdcheckbox" tabindex="3">
+                                                    <label for="">自动登录</label>
+                                                </span>
+                                                <span class="forget-pw-safe">
+                                                    <a href="/findPassword.html" class="" target="_blank">忘记密码</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div id="o-authcode" class="item item-vcode item-fore4 hide">
+                                            <input id="txtVerify" type="text" class="itxt itxt02" name="authcode" tabindex="5">
+                                            <img id="JD_Verification1" class="verify-code" src="/Account/VerifyCode.aspx" onclick="this.src=this.src+'?'">
+                                            <a href="javascript:void(0)" onclick="$('#JD_Verification1').click();">看不清楚换一张</a>
+                                        </div>
+                                        
+                                        <div class="item item-fore5">
+                                            <div class="login-btn">
+                                                <a href="javascript:checkLogin();" class="btn-img btn-entry" id="loginsubmit" tabindex="6">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                        
+                        <div class="coagent">
+                            <ul>
+                                <li><a href="/alipayClient/alipaySendInfo.aspx?at=login&amp;rurl=/AccountCenter.html" onclick="">支付宝</a><span class="line">|</span></li>
+                                
+                                <li class="extra-r">
+                                    <div>
+                                        <div class="regist-link"><a href="/Register.html" target="_blank"><b></b>立即注册</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>                   
+    
+                    </div>
+                </div>
+            <div class="login-banner" style="background-color: #1ba5ec">    
+                    <div class="w">			         
+                        <div id="banner-bg" class="i-inner" style="background:url(/templates/default/images/banner_login.jpg) no-repeat 0 0">
+                        </div>		              
+                    </div>		           
+                </div>
+        </div>
+   </div>
+        <!-- 页脚 -->
+        <div class="w">
+                <div class="footer cf">
+                    <div class="tc">
+                        <div class="copyright">
+                            <span>版权信息：Copyright © 2010 - 2017</span> 版权所有TCP/IP备案号：闽ICP备06004154号<span> 闽公网安备：<a>35020602000664号</a></span>
+                        </div>
+                        <div class="slinks">
+                        </div>
+                     </div>
+                </div>
+        </div>
+</body>
+</html>

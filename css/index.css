@@ -1,3 +1,4 @@
+@charset "utf-8";
 body {
     font: 12px/1.5 tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
     color: #666;
@@ -193,7 +194,7 @@ i, em, b {
 }
 
 #headerTop .headerTt a i {
-    background-image: url(./img/icophone.jpg);
+    background-image: url(../html/img/icophone.jpg);
     width: 10px;
     height: 14px;
     margin-left: 5px;
@@ -385,7 +386,7 @@ img {
     padding-left: 9px;
     line-height: 15px;
     font-weight: bold;
-    background: url(./img/cart.gif) no-repeat left center;
+    background: url(../html/img/cart.gif) no-repeat left center;
 }
 
 #cart .xcart_txt .shopping em {
@@ -393,7 +394,7 @@ img {
     display: block;
     height: 24px;
     width: 16px;
-    background: url(./img/cart.gif) no-repeat right center;
+    background: url(../html/img/cart.gif) no-repeat right center;
 }
 
 #cart .xcart_txt s {
@@ -467,41 +468,21 @@ element.style {
     line-height: 40px;
 }
 
-.xshoplis h2 {
-    position: relative;
-    cursor: pointer;
-}
 
 #menu {
-    display: none;
     position: absolute;
     z-index: 1;
     width: 210px;
     left: 0;
-    _left: -210px;
     top: 42px;
     background: rgba(22,93,200,.9);
     padding-bottom: 1px;
 }
 
-
 #menu .first {
     padding: 12px 15px 12px;
     margin: 0;
     border-top: none;
-}
-
-.menu .mainCate {
-    position: relative;
-    zoom: 1;
-}
-
-.menu .mainCate {
-    position: relative;
-    padding: 11px 5px 11px;
-    zoom: 1;
-    margin: 0 10px;
-    border-top: 1px dotted #4682dd;
 }
 
 .menu h3 {
@@ -521,6 +502,170 @@ element.style {
     display: none;
 }
 
+.subCate01 {
+    top: -1px;
+}
+
+.subCate .full_list {
+    padding: 0 15px 0 105px;
+    width: 660px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: #fbfbfb;
+}
+
+.subCate .full_list_t {
+    position: relative;
+    margin-left: -75px;
+    margin-top: 20px;
+}
+
+.subCate .full_list_t a {
+    background: #e01222;
+    color: #fff;
+    padding: 2px 6px;
+    margin-right: 10px;
+}
+
+.subCate .full_list_t a i {
+    margin-left: 3px;
+    font-family: "SimSun";
+    color: #ffbd89;
+}
+
+.subCate .i-list_l {
+    float: left;
+    padding: 10px 0;
+    position: relative;
+}
+
+.subCate .i-list_l dl.sc01 {
+    border-top: 0;
+}
+
+.subCate .i-list_l dl {
+    width: 660px;
+    padding: 8px 0;
+    zoom: 1;
+    line-height: 22px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.subCate .i-list_l dt {
+    width: 67px;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: -75px;
+}
+
+.subCate .i-list_l dt, .subCate .i-list_l dt a {
+    color: #111;
+}
+
+.subCate .i-list_l dd {
+    width: 660px;
+    white-space: normal;
+    word-break: break-all;
+    zoom: 1;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.subCate .i-list_l dd a {
+    float: left;
+    padding: 0 9px;
+    white-space: nowrap;
+    color: #666;
+}
+
+.subCate .i-list_l dl {
+    width: 660px;
+    padding: 8px 0;
+    zoom: 1;
+    line-height: 22px;
+    border-top: 1px solid #efefef;
+    margin-top: -1px;
+    position: relative;
+}
+
+.subCate .full_listr {
+    width: 210px;
+    z-index: 8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.subCate .fbrands ul {
+    overflow: hidden;
+    zoom: 1;
+    width: 210px;
+}
+
+.subCate .fbrands li {
+    width: 98px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 0 10px 5px;
+    _margin-left: 4px;
+}
+
+.subCate ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu .mainCate {
+    position: relative;
+    padding: 11px 5px 11px;
+    zoom: 1;
+    margin: 0 10px;
+    border-top: 1px dotted #4682dd;
+}
+
+.subCate02 {
+    top: -66px;
+}
+
+.subCate03 {
+    top: -130px;
+}
+
+.subCate04 {
+    top: -194px;
+}
+
+.subCate05 {
+    top: -258px;
+}
+
+.subCate06 {
+    top: -322px;
+}
+
+.subCate07 {
+    top: -386px;
+    height: 490px;
+}
+
+.subCate {
+    background: #fff;
+}
+
 #menu h3 a, #menu .hot a {
     color: #fff;
 }
@@ -531,17 +676,30 @@ element.style {
     overflow: hidden;
 }
 
-.hot {
-    color: #c81623;
-}
-
-#menu h3 a, #menu .hot a {
-    color: #fff;
-}
-
 .menu .hot a {
     margin-right: 10px;
 }
+
+.menu .mainCate {
+    position: relative;
+    padding: 11px 5px 11px;
+    zoom: 1;
+    margin: 0 10px;
+    border-top: 1px dotted #4682dd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #nav .xnavlist {
     float: left;
@@ -908,7 +1066,7 @@ img {
 
 .m-guess .hd a s {
     display: inline-block;
-    background: url(./img/guess_change.jpg) no-repeat left center;
+    background: url(../html/img/guess_change.jpg) no-repeat left center;
     width: 16px;
     height: 16px;
     margin-right: 6px;
@@ -1386,7 +1544,7 @@ fieldset, a img, .bor0 {
 }
 
 .service .agree-con li s {
-    background: url(./img/footer-agree.gif) no-repeat;
+    background: url(../html/img/footer-agree.gif) no-repeat;
     display: block;
     width: 38px;
     height: 42px;
@@ -1510,7 +1668,7 @@ fieldset, a img, .bor0 {
     display: inline-block;
     width: 110px;
     height: 50px;
-    background: url(./img/icon_slinks.jpg) no-repeat;
+    background: url(../html/img/icon_slinks.jpg) no-repeat;
 }
 
 .footer .slinks-r a.a2 {
