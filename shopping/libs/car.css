@@ -243,10 +243,6 @@ a:link, a:visited {
     border-bottom: 2px solid #1369c0;
 }
 
-#nav .mainnav, #logoArea, .headerTopArea .headerTop, .w {
-    margin: 0 auto;
-    width: 1200px;
-}
 
 .xshoplis {
     position: relative;
@@ -395,10 +391,6 @@ a:link, a:visited {
     left: 0;
 }
 
-#nav .mainnav, #logoArea, .headerTopArea .headerTop, .w {
-    margin: 0 auto;
-    width: 1200px;
-}
 
 .index .service2014 .service-info {
     background: #fff;
@@ -467,10 +459,6 @@ a:link, a:visited {
     visibility: hidden;
 }
 
-#nav .mainnav, #logoArea, .headerTopArea .headerTop, .w {
-    margin: 0 auto;
-    width: 1200px;
-}
 
 .cf {
     zoom: 1;

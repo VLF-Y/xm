@@ -1,0 +1,42 @@
+        .box {
+            width: 1000px;
+            overflow: auto;
+            border: solid 1px black;
+            margin: 10px auto
+        }
+
+        .box .goods {
+            width: 250px;
+            border: solid 1px black;
+            float: left;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .goods img {
+            width: 80%;
+            height: 140px;
+            margin-top: 25px;
+        }
+
+        .goods p {
+            margin: 0;
+            line-height: 30px;
+            height: 30px;
+            overflow: hidden;
+        }
+
+        .goods span,
+        .goods em,
+        .goods i {
+            display: block;
+            line-height: 30px;
+            font-style: normal;
+        }
+
+        .goods i {
+            width: 100px;
+            margin: 10px auto;
+            background: cornflowerblue;
+            cursor: pointer;
+        }
