@@ -1,6 +1,6 @@
 class List {
         constructor() {
-            this.url = "http://localhost/project/shopping/data/goods.json";
+            this.url = "http://localhost/project/index/shopping/data/goods.json";
             this.box = document.querySelector(".box");
 
             this.load();
@@ -18,7 +18,7 @@ class List {
             })
         }
         display() {
-            // console.log(this.res);
+            console.log(this.res);
             var str = "";
             for (var i = 0; i < this.res.length; i++) {
                 str += `<div class="goods" index="${this.res[i].goodsId}">
@@ -37,6 +37,7 @@ class List {
                 var e = eve || window.event;
                 var target = e.target || e.srcElement;
                 if (target.className == "btn") {
+                    console.log(1);
                     // 2.提前找到点击商品的唯一的id
                     that.id = target.parentNode.getAttribute("index");
                     // 3.准备存储localstorage

@@ -1,0 +1,429 @@
+body {
+    font: 12px/1.5 tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 90px;
+    background: #fff;
+}
+
+#nav .mainnav, #logoArea, .headerTopArea .headerTop, .w {
+    margin: 0 auto;
+    width: 990px;
+}
+
+#logoArea .left {
+    float: left;
+    padding-top: 14px;
+    width: 290px;
+    position: relative;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+#
+ist {
+    margin-bottom: 10px;
+}
+
+#regist .mt {
+    padding-right: 10px;
+    position: relative;
+    overflow: visible;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#regist .mt, #regist .mt h2, #regist .mt span {
+    height: 38px;
+    line-height: 38px;
+}
+
+#regist .tab {
+    height: 39px;
+    padding-left: 150px;
+}
+
+.tab {
+    overflow: hidden;
+    zoom: 1;
+}
+
+#regist .tab .curr {
+    border-top: 2px solid #f30213;
+    color: #fff;
+    background: #fff;
+    color: #f30213;
+    height: 40px;
+    line-height: 36px;
+    font-weight: bold;
+    box-shadow: 2px 0 2px #e6e6e6;
+}
+
+#regist .tab li {
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+}
+
+#regist .tab li {
+    margin-right: 5px;
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+}
+
+#regist .mt .extra {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.mt .extra {
+    float: right;
+}
+
+#regist .mt span {
+    float: right;
+    text-align: right;
+}
+
+#regist .mt .extra a {
+    color: #38f;
+}
+
+#regist .mc {
+    padding: 30px 0;
+    border: solid #e6e6e6;
+    border-width: 0px 1px 1px;
+    background: #fff;
+    background:url(../html/img/gn.jpg) no-repeat 530px 70px
+}
+
+.m, .mt, .mc, .mb {
+    overflow: hidden;
+    zoom: 1;
+}
+
+#regist #select-regName {
+    z-index: 5;
+}
+
+#regist .label {
+    width: 170px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    padding-right: 10px;
+}
+
+#regist .item .item-ifo {
+    position: relative;
+}
+
+.o-intelligent-regName {
+    z-index: 3;
+}
+
+#regist .succeed {
+    background: url(../html/img/sucess.png) no-repeat #ffffff;
+}
+
+#regist .blank {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    right: 3px;
+    padding: 3px;
+    float: none;
+}
+
+#regist #regName_error {
+    cursor: pointer;
+}
+
+#pwdstrength, #regName_error {
+    color: #999;
+    line-height: 14px;
+    padding-right: 10px;
+    clear: both;
+    float: none;
+    position: absolute;
+    right: -7px;
+    top: 40px;
+}
+
+.intelligent-error h5 {
+    padding: 0 3px;
+    font-weight: normal;
+    color: #999999;
+    margin-top: 1px;
+}
+
+#o-password {
+    position: relative;
+}
+
+#capslock {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 180px;
+    z-index: 3;
+    width: 248px;
+    background-color: #fffdee;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #edd288;
+    color: #f60;
+    padding: 0 10px;
+}
+
+#capslock i {
+    background: url(../icson/img/login/tip-cue.png) center center no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#capslock s {
+    position: absolute;
+    background: url(../icson/img/login/tip-arrow.png) center center no-repeat;
+    height: 12px;
+    width: 18px;
+    bottom: -10px;
+    left: 38px;
+}
+
+#regist .item {
+    padding-top: 9px;
+    height: 58px;
+    line-height: 34px;
+    z-index: 1;
+    position: relative;
+}
+
+#regist .label {
+    width: 170px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    padding-right: 10px;
+}
+
+#regist .item .item-pass {
+    width: 270px;
+}
+
+#regist .item .item-ifo {
+    position: relative;
+}
+
+.fl {
+    float: left;
+}
+
+#regist .text {
+    width: 238px;
+    height: 16px;
+    float: none;
+    font-size: 14px;
+    font-family: arial, 宋体;
+    color: rgb(153, 153, 153);
+    padding: 9px 25px 9px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+
+#regist .succeed {
+    background: url(../html/img/sucess.png) no-repeat #ffffff;
+}
+
+#regist .blank {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    right: 3px;
+    padding: 3px;
+    float: none;
+}
+
+label {
+    cursor: default;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.cf:after, .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#pwdstrength, #regName_error {
+    color: #999;
+    line-height: 14px;
+    padding-right: 10px;
+    clear: both;
+    float: none;
+    position: absolute;
+    right: -7px;
+    top: 40px;
+}
+
+#regist .item {
+    padding-top: 9px;
+    height: 58px;
+    line-height: 34px;
+    z-index: 1;
+    position: relative;
+}
+
+#regist .label {
+    width: 170px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    padding-right: 10px;
+}
+
+#regist .item .item-pass {
+    width: 270px;
+}
+
+#regist .item .item-ifo {
+    position: relative;
+}
+
+#regist .item .txtexplain {
+    color: #e50000;
+}
+
+.fl {
+    float: left;
+}
+
+.form label, .form input, .form select, .form textarea, .form button, .form .label {
+    float: left;
+    font-size: 12px;
+}
+
+#regist .item {
+    padding-top: 9px;
+    height: 58px;
+    line-height: 34px;
+    z-index: 1;
+    position: relative;
+}
+
+#regist .label {
+    width: 170px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    padding-right: 10px;
+}
+
+#regist .item .item-ifo {
+    position: relative;
+}
+
+#regist .null, #regist .error {
+    color: #f00;
+}
+
+.intelligent-error {
+    background: none repeat scroll 0 0 #ffebeb;
+    border: 1px solid #ffbdbe;
+    left: 0px;
+    position: absolute;
+    top: 36px;
+    width: 268px;
+    z-index: 20;
+}
+
+.intelligent-error h5 {
+    padding: 0 3px;
+    font-weight: normal;
+    color: #999999;
+    margin-top: 1px;
+}
+
+#o-password {
+    position: relative;
+}
+
+#capslock {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 180px;
+    z-index: 3;
+    width: 248px;
+    background-color: #fffdee;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #edd288;
+    color: #f60;
+    padding: 0 10px;
+}
+
+.tc {
+    text-align: center;
+}
+
+.footer .copyright {
+    padding: 5px 0;
+}
+
+.footer .slinks {
+    color: #ddd;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.footer {
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Microsoft YaHei;
+    z-index: 1;
+}
+
+#regist .btn-regist {
+    width: 270px;
+    height: 46px;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: 100;
+    background: #e22;
+}
+
+
+
+
+
+
+
+

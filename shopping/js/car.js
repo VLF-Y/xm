@@ -1,6 +1,6 @@
    class Car {
         constructor() {
-            this.url = "http://localhost/project/shopping/data/goods.json";
+            this.url = "http://localhost/project/index/shopping/data/goods.json";
             this.tbody = document.querySelector("tbody");
             this.qx = document.querySelector('.qx');
             this.remove = document.querySelector(".remove");

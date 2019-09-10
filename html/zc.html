@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/zc.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logoArea">
+            <div class="left">
+                <a href="/" title=""><img src="./img/logo.gif" alt=""></a>
+            </div>
+        </div>    
+    </div>
+    <div id="container">
+        <div class="w pb10 pt20" id="regist">
+    <div class="mt">
+        <ul class="tab">
+            <li class="curr">个人用户</li>
+        </ul>
+        <div class="extra">
+            <span>我已经注册，现在就&nbsp;<a href="dl.html" class="flk13">登录</a></span>
+        </div>
+    </div>
+    <div class="mc">
+    <form id="formcompany" method="post">
+    <div class="form">
+        <div class="item" id="select-regName">
+            <span class="label">用户名：</span>
+            <div class="fl item-ifo">
+                <div class="o-intelligent-regName">
+                    <input type="text" id="unameInp" name="regName" maxlength="20" class="text" tabindex="1" value="">
+                    
+                    <label id="regName_succeed" class="blank succeed"></label>
+                    <label id="regName_error" class=""></label>
+                </div>
+                <!-- <div class="intelligent-error hide" id="morePinDiv">
+                    <h5>推荐您使用：</h5>
+                    <div class="groom" id="morePinGroom"></div>
+                </div> -->
+            </div>
+        </div>
+        <div id="o-password">
+            <div id="capslock"><i></i><s></s>键盘大写锁定已打开，请注意大小写</div><!--  密码大写提示  -->
+            <div class="item">
+                <span class="label">请设置密码：</span>
+                <div class="fl item-ifo item-pass">
+                    <input type="password" id="passwInp" name="pwd" maxlength="20" class="text" tabindex="2" >
+                    <label id="pwd_succeed" class="blank  succeed"></label>
+                    <label id="pwd_error" class=""></label>
+                    <span class="cf"></span>
+                    <label class="strengthC" id="pwdstrength" ><span class="fl">安全程度：</span><b></b></label>
+                 
+                </div>
+            </div>
+            <div class="item">
+                <span class="label">请确认密码：</span>
+                <div class="fl item-ifo item-pass">
+                    <input type="password" id="passConfim" name="pwdRepeat" maxlength="20" class="text" tabindex="3">
+                    <i class="i-pass"></i>
+                    <label id="pwdRepeat_succeed" class="blank"></label>
+                    <label id="pwdRepeat_error" class=""></label>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <span class="label">手机号码</span>
+            <div class="fl item-ifo">
+                <input type="text" id="mobileInp" name="phone" maxlength="40" class="text" tabindex="4" sta="0">
+                <label id="phone_succeed" class="blank"></label>
+                <label id="phone_error" class="null"></label>
+                <span class="cf"></span>
+            </div>
+        </div>
+        <!--验证码更改,qianxuedi-->
+        <div class="item item-new">
+            <span class="label">&nbsp;</span>
+            <div class="fl item-ifo">
+                <input type="checkbox" class="checkbox" checked="checked" id="serviceItemChek">
+                <label for="protocol">我已阅读并同意
+                    <a href="/HelpInfo30.html" class="blue" id="protocol">《万翔用户注册协议》</a>
+                    <a href="/HelpInfo55.html" class="blue">《翔业尊享会会员章程》</a>
+                </label>
+                <span class="cf"></span>
+                <label id="protocol_error"></label>
+            </div>
+        </div>
+        <div class="item">
+            <span class="label">&nbsp;</span>
+            <input type="button" class="btn-img btn-regist" id="
+            " value="提交" tabindex="25">
+            <label id="regbtn_error"></label>
+        </div>
+            <input name="hidsmskey" type="hidden" id="hidsmskey">
+        <div class="item">
+                <span class="label">&nbsp;</span>
+                    <div class="txtexplain">注册成功的会员，可关注翔业尊享会微信公众号，获悉更多会员权益。</div>
+                </div>
+            </div>
+        </form>  
+    </div>
+    </div>
+        </div>
+            <div class="w">
+                <div class="footer cf">
+                    <div class="tc">
+                        <div class="copyright">
+                            <span>版权信息：Copyright©2010 - 2016  万翔商城</span> 版权所有TCP/IP备案号：闽ICP备06004154号<span> 闽公网安备：<a target="_blank">35020602000664号</a></span>
+                        </div>
+                    <div class="slinks">
+                 </div>
+             </div>
+        </div>
+    </div>
+</body>
+<script src="../js/zc.js"></script>
+</html>
