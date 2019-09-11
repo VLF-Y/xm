@@ -1,42 +1,42 @@
 ﻿[{
 		"name": "天际(TONZE)不锈钢电水壶ZDH-210C 容量1.0升",
 		"price": "79.00",
-		"url": "img/205041C.jpg",
+		"url": "../html/img/index_hot4.jpg",
 		"goodsId": "id1",
 		"tip": ""
 	},
 	{
 		"name": "天际(TONZE)电热水壶ZDH-217C",
 		"price": "98.00",
-		"url": "img/205199C.jpg",
+		"url": "../html/img/index_hot3.jpg",
 		"goodsId": "id2",
 		"tip": ""
 	},
 	{
 		"name": "晨光（M&G）Q7 中性笔（黑）0.5mm 12支/盒",
 		"price": "12.00",
-		"url": "img/514009C.jpg",
+		"url": "../html/img/index_hot2.jpg",
 		"goodsId": "id3",
 		"tip": ""
 	},
 	{
 		"name": "美的(Midea)落地扇FS40-15F1",
 		"price": "197.00",
-		"url": "img/1001196.jpg",
+		"url": "../html/img/index_hot6.jpg",
 		"goodsId": "id4",
 		"tip": ""
 	},
 	{
 		"name": "得力8556ES彩色长尾票夹筒装(混)(60只/筒)",
 		"price": "9.90",
-		"url": "img/1015802.jpg",
+		"url": "../html/img/index_hot7.jpg",
 		"goodsId": "id5",
 		"tip": ""
 	},
 	{
 		"name": "爱仕达温玉Ⅲ系列不锈钢真空保温瓶RWS16P1Q（1.6L）",
 		"price": "169.00",
-		"url": "img/1113162.jpg",
+		"url": "../html/img/MacBook.jpg",
 		"goodsId": "id6",
 		"tip": ""
 	}
