@@ -3,13 +3,13 @@
             this.user = document.getElementsByClassName("text")
             this.pass = document.getElementById("passwInp")
             this.btn = document.getElementById("regBtn")
-            this.error = document.querySelector(".box span")
+            this.span = document.querySelector(".extra span")
 
             this.addEvent()
         }
         addEvent(){
             var that = this;
-            this.btn.onclick = function(){
+            this.btn.onclick = ()=>{
                 that.setLocal()
             }
         }

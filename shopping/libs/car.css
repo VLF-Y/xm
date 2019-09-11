@@ -57,7 +57,7 @@ div {
     position: absolute;
     width: 11px;
     height: 11px;
-    background: url(../img/index_Tclose.png) no-repeat;
+    background: url(./img/index_Tclose.png) no-repeat;
     right: 5px;
     top: 5px;
     opacity: 0.8;
@@ -112,7 +112,7 @@ div {
 }
 
 #headerTopArea .headerTop a i {
-    background-image: url(../img/icophone.jpg);
+    background-image: url(./img/icophone.jpg);
     width: 10px;
     height: 14px;
     margin-left: 5px;
@@ -381,7 +381,7 @@ a:link, a:visited {
 }
 
 .service2014 .agree-con li s {
-    background: url(../img/footer-agree.gif) no-repeat;
+    background: url(./img/footer-agree.gif) no-repeat;
     display: block;
     width: 38px;
     height: 42px;

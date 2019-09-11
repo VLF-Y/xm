@@ -1,92 +1,43 @@
 ﻿[{
 		"name": "天际(TONZE)不锈钢电水壶ZDH-210C 容量1.0升",
 		"price": "79.00",
-		"url": "images/205041C.jpg",
+		"url": "img/205041C.jpg",
 		"goodsId": "id1",
 		"tip": ""
 	},
 	{
 		"name": "天际(TONZE)电热水壶ZDH-217C",
 		"price": "98.00",
-		"url": "images/205199C.jpg",
+		"url": "img/205199C.jpg",
 		"goodsId": "id2",
 		"tip": ""
 	},
 	{
 		"name": "晨光（M&G）Q7 中性笔（黑）0.5mm 12支/盒",
 		"price": "12.00",
-		"url": "images/514009C.jpg",
+		"url": "img/514009C.jpg",
 		"goodsId": "id3",
 		"tip": ""
 	},
 	{
 		"name": "美的(Midea)落地扇FS40-15F1",
 		"price": "197.00",
-		"url": "images/1001196.jpg",
+		"url": "img/1001196.jpg",
 		"goodsId": "id4",
 		"tip": ""
 	},
 	{
 		"name": "得力8556ES彩色长尾票夹筒装(混)(60只/筒)",
 		"price": "9.90",
-		"url": "images/1015802.jpg",
+		"url": "img/1015802.jpg",
 		"goodsId": "id5",
 		"tip": ""
 	},
 	{
 		"name": "爱仕达温玉Ⅲ系列不锈钢真空保温瓶RWS16P1Q（1.6L）",
 		"price": "169.00",
-		"url": "images/1113162.jpg",
+		"url": "img/1113162.jpg",
 		"goodsId": "id6",
-		"tip": ""
-	},
-	{
-		"name": "宝克PC1911 0.5MM 按动中性笔 黑 12支/盒",
-		"price": "24.00",
-		"url": "images/1118303.jpg",
-		"goodsId": "id7",
-		"tip": ""
-	},
-	{
-		"name": "网易严选 玻璃内胆保温壶 炽烈红",
-		"price": "112.00",
-		"url": "images/1130382.jpg",
-		"goodsId": "id8",
-		"tip": ""
-	},
-	{
-		"name": "虎牌Tiger多功能焖烧杯MCH-A50C-CK米白色500ML",
-		"price": "499.00",
-		"url": "images/1140538.jpg",
-		"goodsId": "id9",
-		"tip": ""
-	},
-	{
-		"name": "虎牌Tiger不锈钢保温杯MJA-B048-RMT深红色480ML",
-		"price": "418.00",
-		"url": "images/1140565.jpg",
-		"goodsId": "id10",
-		"tip": ""
-	},
-	{
-		"name": "环白高品乐A4-70g 多功能复印纸 10包/箱",
-		"price": "230.00",
-		"url": "images/1142768.jpg",
-		"goodsId": "id11",
-		"tip": ""
-	},
-	{
-		"name": "莱克扫地机器人R1021",
-		"price": "2299.00",
-		"url": "images/1143057.jpg",
-		"goodsId": "id12",
-		"tip": ""
-	},
-	{
-		"name": "希捷(SEAGATE)铭1TB移动硬盘STHN1000400（黑）",
-		"price": "370.00",
-		"url": "images/1147349.jpg",
-		"goodsId": "id13",
 		"tip": ""
 	}
 ]
