@@ -3,7 +3,6 @@ class Login {
         this.user = document.getElementByClassName("itxt")
         this.pass = document.getElementById("txtLoginPwd")
         this.btn = document.getElementById("loginsubmit")
-        this.span = document.getElementById("loginsubmit")
 
         this.addEvent();
         this.getLocal();

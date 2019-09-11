@@ -25,7 +25,7 @@ class Goods {
         if (t) {
             this.display();
         } else {
-            console.error('数据解析错误!');
+            console.error('错误');
         }
 
     }
